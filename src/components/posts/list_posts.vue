@@ -22,7 +22,8 @@
 
     <div class="posts-section">
         <div class="container">
-            <div class="col-lg-8 col-md-8 col-12">
+           <div class="row">
+             <div class="col-lg-8 col-md-8 col-12">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-12">
@@ -40,7 +41,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-3 col-12"></div>
+            <div class="col-lg-4 col-md-3 col-12">
+                <search-widget></search-widget>
+            </div>
+           </div>
         </div>
     </div>
   </div>
@@ -48,10 +52,12 @@
 
 <script>
 import Post from '@/components/posts/_partials/post'
+import SearchWidget from '@/components/layout/search_widget'
   export default {
     name: 'PostsHome',
     components:{
-        Post
+        Post,
+        SearchWidget
     }
   }
 
