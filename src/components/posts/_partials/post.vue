@@ -9,8 +9,8 @@
       </div>
     </div>
     <div class="post-content">
-      <a class="post-tag" href="#" tabindex="0">HTML</a>
-      <h3><a href="#" tabindex="0">Learn HTML 5</a></h3>
+      <a class="post-tag" href="/view" tabindex="0">HTML</a>
+      <h3><a href="/view" tabindex="0">Learn HTML 5</a></h3>
       <div class="meta-tags">
         <div class="tag">
           <span class="fas fa-calendar-alt icon"></span>
@@ -25,7 +25,7 @@
       </div>
       <div class="post-readmore-container">
         <div class="readmore">
-          <a href="#" tabindex="0">
+          <a href="/view" tabindex="0">
             <span>Continue Reading</span>
             <span class="far fa-hand-point-right icon"></span>
           </a>

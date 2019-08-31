@@ -9,7 +9,7 @@
               <div id="breadcrumbs">
                 <div id="crumbs">
                   <a href="/">Home</a>
-                  <i class="fas fa-angle-righ crumbs_delimiter"></i>
+                  <i class="fas fa-angle-right crumbs_delimiter"></i>
                   <span>Our Blog</span>
                 </div>
               </div>
@@ -44,7 +44,6 @@
             <div class="col-lg-4 col-md-3 col-12">
                 <search-widget></search-widget>
                 <tags-widget></tags-widget>
-                <related-widget></related-widget>
             </div>
            </div>
         </div>
@@ -55,7 +54,6 @@
 <script>
 import Post from '@/components/posts/_partials/post'
 import TagsWidget from '@/components/posts/_partials/tags_widget'
-import RelatedWidget from '@/components/posts/_partials/related_posts'
 import SearchWidget from '@/components/layout/search_widget'
   export default {
     name: 'PostsHome',
@@ -63,7 +61,6 @@ import SearchWidget from '@/components/layout/search_widget'
         Post,
         SearchWidget,
         TagsWidget,
-        RelatedWidget
     }
   }
 

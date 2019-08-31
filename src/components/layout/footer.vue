@@ -21,7 +21,7 @@
 @import '../../../node_modules/handy.sass.mixins/scss/shared';
   @import '../../assets/sass/_variables';
 .footer{
-    background-color:#000;
+    background-color:$main-color;
     width:100%;
     color:#fff;
     text-align:center;
