@@ -26,8 +26,32 @@ export default {
  @import '../src/assets/sass/app';
   @import '../src/assets/sass/_variables';
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family:'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity 1s ease;
+}
+
+.fade-leave {
+
+}
+
+.fade-leave-active {
+    transition: opacity 1s ease;
+    opacity: 0;
+}
+.view{
+  min-height:600px;
+}
+.view > div  {
+  transition: height 0.2s;
+}
+
 </style>
