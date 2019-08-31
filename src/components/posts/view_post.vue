@@ -25,7 +25,7 @@
     <div class="posts-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-8 col-12">
+          <div class="col-lg-8 col-md-7 col-12">
             <div class="container view-post">
               <div class="row">
                 <div class="col-12">
@@ -52,7 +52,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-3 col-12">
+          <div class="col-lg-4 col-md-5 col-12">
             <search-widget></search-widget>
             <tags-widget></tags-widget>
             <related-widget></related-widget>
@@ -131,6 +131,12 @@
     margin-bottom: 50px;
 
     .view-post {
+        .single-image{
+            width:100%;
+            img{
+                width:100%;
+            }
+        }
       h3 {
         margin-top: 20px;
         margin-bottom: 20px;
