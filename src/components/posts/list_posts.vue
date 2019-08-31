@@ -43,6 +43,7 @@
             </div>
             <div class="col-lg-4 col-md-3 col-12">
                 <search-widget></search-widget>
+                <tags-widget></tags-widget>
             </div>
            </div>
         </div>
@@ -52,12 +53,14 @@
 
 <script>
 import Post from '@/components/posts/_partials/post'
+import TagsWidget from '@/components/posts/_partials/tags_widget'
 import SearchWidget from '@/components/layout/search_widget'
   export default {
     name: 'PostsHome',
     components:{
         Post,
-        SearchWidget
+        SearchWidget,
+        TagsWidget
     }
   }
 
