@@ -26,22 +26,17 @@
              <div class="col-lg-8 col-md-8 col-12">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <post></post>
                         </div>
-                        <div class="col-md-6 col-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <post></post>
                         </div>
-                        <div class="col-md-6 col-12">
-                            <post></post>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <post></post>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-3 col-12">
+            <div class="col-lg-4 col-md-4 col-12">
                 <search-widget></search-widget>
                 <tags-widget></tags-widget>
             </div>

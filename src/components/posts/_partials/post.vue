@@ -55,12 +55,19 @@
     overflow: hidden;
     @include prefixer(box-shadow, 0 10px 30px 0 rgba(50, 50, 50, .16), ($prefix-list));
     margin-bottom:20px;
+    @media(max-width:767px){
+      flex-direction:row;
+    }
+     @media(max-width:480px){
+      flex-direction:column;
+    }
     .post-img {
       width: 100%;
 
       .image-contaienr {
         @include aspect-ratio(4, 3);
         width: 100%;
+        height:100%;
 
         img {
           width: 100%;
@@ -99,6 +106,16 @@
         background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($main-color), to($accent-color));
         background: -webkit-linear-gradient(top, $main-color, $accent-color);
         font-size: 13px;
+        @media(max-width:767px){
+          bottom: 23px;
+          left: -82px;
+          top:unset;
+        }
+        @media(max-width:480px){
+          top:-20px;
+          left:20px;
+          bottom:unset;
+        }
       }
 
       h3 {
